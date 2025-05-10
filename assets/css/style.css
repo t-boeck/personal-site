@@ -20,7 +20,7 @@ nav .menu a{color:white;}
 .highlight{color:var(--accent);}
 .btn{display:inline-block;background:var(--primary);color:white;padding:.75rem 1.5rem;border-radius:4px;}
 h2{margin:2rem 0 1rem;}
-.skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:.75rem;list-style:none;}
+.skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:.75rem;list-style:none;margin-bottom:2rem;}
 .skills li{background:white;padding:.75rem;border:1px solid #e2e8f0;border-radius:4px;}
 .project{background:white;padding:1rem;border:1px solid #e2e8f0;border-radius:4px;margin-bottom:1rem;}
 footer{background:var(--dark);color:white;text-align:center;padding:1rem 0;margin-top:4rem;font-size:.875rem;}
