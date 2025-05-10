@@ -30,6 +30,12 @@ nav .menu a{color:white;}
 .hero h1{font-size:2.5rem;margin-bottom:.5rem;}
 .hero .subtitle{font-size:1.125rem;margin-bottom:1.5rem;}
 .highlight{color:var(--accent);}
+.hero-photo{
+  width:140px;        /* adjust to taste */
+  height:auto;
+  border-radius:50%;  /* circular crop; remove if you prefer square */
+  margin-bottom:1rem; /* space above the heading */
+}
 
 /* ---------- Buttons ---------- */
 .btn{
@@ -102,7 +108,7 @@ section.project ul{
   padding-left:0;
 }
 section.project figure img{
-  max-width:800px;         /* keeps huge screenshots tame */
+  max-width:600px;         /* keeps huge screenshots tame */
   width:100%;
   height:auto;
   border:1px solid #e2e8f0;
