@@ -2,20 +2,21 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Thomas Boeck | Data Scientist</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Thomas Boeck | Data Science & Analytics Leader</title>
+  <meta name="description" content="Personal website of Thomas Boeck, Manager of Data Science & Analytics specializing in analytics engineering, LLMs, and predictive modeling.">
   <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="icon"       type="image/png" sizes="32x32" href="assets/img/fern_favicon_32.png">
-  <style>html{scroll-behavior:smooth}</style><!-- smooth scroll -->
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/fern_favicon_32.png">
 </head>
 
 <body>
 
 <nav>
   <div class="container">
-    <a class="brand" href="#">Thomas&nbsp;Boeck</a>
+    <a class="brand" href="#">Thomas Boeck</a>
     <ul class="menu">
       <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
   </div>
@@ -23,73 +24,129 @@
 
 <main class="container">
 
-  <!-- HERO / SKILLS -->
+  <!-- HERO -->
   <section class="hero" id="home">
-    <img src="assets/img/me.png" alt="Thomas and his dog" class="hero-photo">
-    <h1>Hello, I'm <span class="highlight">Thomas Boeck</span>.</h1>
-    <p class="subtitle">Data scientist turning data into actionable insights.</p>
+    <div class="hero-header">
+      <img src="assets/img/me.png" alt="Thomas Boeck" class="hero-photo">
+      <div>
+        <h1>Thomas Boeck</h1>
+        <p class="bio-interests">Data science &amp; analytics leader specializing in analytics engineering, LLMs, and predictive modeling. Outside of work, I'm usually interested in trains, urban planning, film &amp; literature, language, economics, and hiking.</p>
+      </div>
+    </div>
   </section>
 
   <!-- PROJECTS -->
   <section id="projects">
     <h2>Projects</h2>
-    <article class="project">
-      <img src="assets/img/thumb_aldus.png" alt="Aldus thumbnail">
-      <div>
-        <h3><a href="https://github.com/t-boeck/aldus">Aldus, The Bookmaker</a></h3>
-        <p>Create dual-language PDFs from any text.</p>
-      </div>
-    </article>
+    
+    <div class="project-list">
+      <article class="project" id="project-patent">
+        <img src="assets/img/thumb_patent.png" alt="US Patent blueprint thumbnail">
+        <div>
+          <h3>
+            <a href="assets/img/US-12373769-B1.pdf" target="_blank" rel="noopener">ETA Prediction Engine</a>
+            <span class="badge-tag">US Patent 12,373,769 B1</span>
+          </h3>
+          <p>Lead inventor of deep learning and geospatial routing methodology achieving industry-leading ETA accuracy for freight and logistics at Telegraph. <a href="assets/img/US-12373769-B1.pdf" target="_blank" rel="noopener">Read full patent (PDF) &rarr;</a></p>
+        </div>
+      </article>
 
-    <article class="project">
-      <img src="assets/img/family_tree.png" alt="Family Tree thumbnail">
-      <div>
-        <h3><a href="https://family-tree-wi4b.onrender.com">Family Tree App</a></h3>
-        <p>Simple family tree app.</p>
-      </div>
-    </article>
-    
-    <article class="project">
-      <img src="assets/img/thumb_lacrime.png" alt="LA Crime Stats thumbnail">
-      <div>
-        <h3><a href="https://crime.tboeck.com/">LA Crime Stats</a></h3>
-        <p>Interactive dashboard of Los Angeles arrest data.</p>
-      </div>
-    </article>
-    
-    <article class="project">
-      <img src="assets/img/thumb_distributed.png" alt="Distributed Work Report thumbnail">
-      <div>
-        <h3><a href="distributed_work_report.html">Distributed Work Report</a></h3>
-        <p>Nationwide employer survey on remote &amp; hybrid teams.</p>
-      </div>
-    </article>
+      <article class="project" id="project-isochrone">
+        <img src="assets/img/thumb_isochrone.png" alt="Isochrone map thumbnail">
+        <div>
+          <h3>
+            Isochrone Travel-Time Reachability Map
+            <span class="badge-tag">Coming Soon</span>
+          </h3>
+          <p>Interactive travel-time reachability map using open geospatial routing data and custom contours. Code and demo uploading soon to GitHub.</p>
+        </div>
+      </article>
+
+      <article class="project" id="project-aldus">
+        <img src="assets/img/thumb_aldus.png" alt="Aldus thumbnail">
+        <div>
+          <h3><a href="https://github.com/t-boeck/aldus" target="_blank" rel="noopener">Aldus, The Bookmaker</a></h3>
+          <p>Open-source utility for building elegant dual-language parallel text PDFs from raw texts.</p>
+        </div>
+      </article>
+
+      <article class="project" id="project-lacrime">
+        <img src="assets/img/thumb_lacrime.png" alt="LA Crime Stats thumbnail">
+        <div>
+          <h3><a href="https://crime.tboeck.com/" target="_blank" rel="noopener">LA Crime Stats</a></h3>
+          <p>Interactive dashboard analyzing Los Angeles crime data and arrest trends across police divisions.</p>
+        </div>
+      </article>
+
+      <article class="project" id="project-distributed">
+        <img src="assets/img/thumb_distributed.png" alt="Distributed Work Report thumbnail">
+        <div>
+          <h3><a href="distributed_work_report.html">Distributed Work Report</a></h3>
+          <p>Whitepaper summarizing findings from a nationwide employer survey on remote and hybrid workforce dynamics.</p>
+        </div>
+      </article>
+    </div>
   </section>
 
   <!-- SKILLS -->
   <section id="skills">
-    <h2>Skills</h2>
-    <ul class="skills-grid">
-     <article><h4>Programming&nbsp;Languages</h4><p>Python • R • SQL</p></article>
-      <article><h4>AI / ML</h4><p>LLMs • XGBoost • PyTorch</p></article>
-      <article><h4>Visualization</h4><p>Power BI • Tableau • D3</p></article>
-      <article><h4>Cloud & Data</h4><p>AWS • BigQuery • Snowflake</p></article> 
-    </ul>
-  </section>
+    <h2>Skills &amp; Expertise</h2>
+    
+    <div class="skills-grid">
+      <div class="skill-category">
+        <h4>Languages &amp; Modeling</h4>
+        <div class="tag-cloud">
+          <span class="tag">Python</span>
+          <span class="tag">SQL</span>
+          <span class="tag">dbt</span>
+          <span class="tag">R</span>
+          <span class="tag">PostgreSQL</span>
+          <span class="tag">Data Modeling</span>
+        </div>
+      </div>
 
+      <div class="skill-category">
+        <h4>AI &amp; Machine Learning</h4>
+        <div class="tag-cloud">
+          <span class="tag">LLMs</span>
+          <span class="tag">ETA / Predictive Modeling</span>
+          <span class="tag">XGBoost</span>
+          <span class="tag">PyTorch</span>
+          <span class="tag">A/B Testing</span>
+        </div>
+      </div>
+
+      <div class="skill-category">
+        <h4>Analytics &amp; Infrastructure</h4>
+        <div class="tag-cloud">
+          <span class="tag">Snowflake</span>
+          <span class="tag">AWS</span>
+          <span class="tag">Omni</span>
+          <span class="tag">Tableau</span>
+          <span class="tag">D3</span>
+          <span class="tag">Analytics Engineering</span>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- CONTACT -->
   <section id="contact">
     <h2>Get in Touch</h2>
-    <p><a href="mailto:me@tboeck.com">me@tboeck.com</a></p>
-    <p><a href="https://www.linkedin.com/in/thomas-boeck-b382448a/">LinkedIn</a></p>
-    <p><a href="https://github.com/t-boeck">GitHub</a></p>
+    <p>Feel free to reach out via email or connect on social platforms:</p>
+    <ul class="contact-links">
+      <li><a href="mailto:me@tboeck.com">me@tboeck.com</a></li>
+      <li><a href="https://www.linkedin.com/in/thomas-boeck-b382448a/" target="_blank" rel="noopener">LinkedIn</a></li>
+      <li><a href="https://github.com/t-boeck" target="_blank" rel="noopener">GitHub</a></li>
+    </ul>
   </section>
 
 </main>
 
 <footer>
-  <p>&copy; 2025 Thomas Boeck &mdash; Data Scientist. All rights reserved.</p>
+  <div class="container">
+    <p>&copy; 2026 Thomas Boeck &mdash; Data Science &amp; Analytics Leader. All rights reserved.</p>
+  </div>
 </footer>
 
 </body>
